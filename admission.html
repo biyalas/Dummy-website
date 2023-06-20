@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission</title>
+</head>
+<style>
+  body{
+    background-color: rgb(206, 207, 209);
+  }
+  .header {
+    background-color: rgb(255, 163, 0);
+    padding: 10px;
+    text-align: center;
+  }
+  table{
+    background-color: #f5f186;
+background-image: linear-gradient(315deg, #f5f186 0%, #9dfbc8 74%);
+    border: 2px solid black;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: 400;
+    border-style:groove;
+  }
+  input[type=text], input[type=email], input[type=number]{
+ width: 40%;
+ padding: 4px 4px;
+ margin: 3px 0;
+ box-sizing: border-box;
+}
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+</style>
+
+<body>
+  
+  <div class="header">
+    <img src="https://www.tcetmumbai.in/image/rndheader.jpg" width="1200" height="100">
+  </div>
+  <center><h1>||  Admission Form  ||</h1></center>
+  <hr color="black">
+  <hr color="black">
+  <table align="center" cellpadding="15">
+    <tr>
+      <td>Firstname :</td>
+      <td><input type="text" name="FirstName" maxlength="50" /></td>
+    </tr>
+    <tr>
+      <td>Lastname :</td>
+      <td><input type="text" name="LastName" maxlength="50" /></td>
+    </tr>
+    <tr>
+      <td>Father Name :</td>
+      <td><input type="text" name="Father Name" maxlength="50" /></td>
+    </tr>
+    <tr>
+      <td>Mother Name :</td>
+      <td><input type="text" name="Mother Name" maxlength="50" /></td>
+    </tr>
+    <tr>
+      <td>E-mail ID :</td>
+      <td><input type="email" name="E-mail ID" /></td>
+    </tr>
+    <tr>
+      <td>Mobile No.(student) :</td>
+      <td><input type="number" name="Mobile No." /></td>
+    </tr>
+    <tr>
+      <td>Mobile No.(Parent) :</td>
+      <td><input type="number" name="Mobile No." /></td>
+    </tr>
+    <tr>
+      <td>Gender :</td>
+      <td><input type="radio" name="Gender" value="Male" />Male</td>
+      <td><input type="radio" name="Gender" value="Female" />Female</td>
+    </tr>
+    <tr>
+      <td>Address :</td>
+      <td><textarea name="Address" cols="70" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td>City :</td>
+      <td><input type="text" name="City"></td>
+    </tr>
+    <tr>
+      <td>State :</td>
+      <td><input type="text" name="State"></td>
+    </tr>
+    <tr>
+      <td>12 score :</td>
+      <td><input type="number" name="12 Score"></td>
+    </tr>
+    <tr>
+      <td>MHT-CET score :</td>
+      <td><input type="number" name="MHT-CET"></td>
+    </tr>
+    <tr>
+      <td>JEE score :</td>
+      <td><input type="number" name="JEE score"></td>
+    </tr>
+    <tr>
+      <td> 1st Prefrence Course:</td>
+      <td>
+        <select name="Course" id="Course">
+          <option value="COMP">COMP(Computer Engineering)</option>
+          <option value="CIVIL">CIVIL(Civil Engineering)</option>
+          <option value="MECH">MECH(Mechanical Engineering)</option>
+          <option value="CSE">CSE(Computer science Engineering-cybersecurity)</option>
+          <option value="EXTC">EXTC(Electronics and Telecommunication)</option>
+          <option value="ECS">ECS(Electronics and Computer science)</option>
+          <option value="IT">IT(Information Technology)</option>
+        </select>
+      </td>
+    </tr>
+    
+
+      <tr>
+        <td> 2nd Prefrence Course:</td>
+      <td>
+        <select name="Course" id="Course">
+          <option value="COMP">COMP(Computer Engineering)</option>
+          <option value="CIVIL">CIVIL(Civil Engineering)</option>
+          <option value="MECH">MECH(Mechanical Engineering)</option>
+          <option value="CSE">CSE(Computer science Engineering-cybersecurity)</option>
+          <option value="EXTC">EXTC(Electronics and Telecommunication)</option>
+          <option value="ECS">ECS(Electronics and Computer science)</option>
+          <option value="IT">IT(Information Technology)</option>
+        </select>
+      </td>
+      </tr>
+
+      <tr>
+        <td> 3rd Prefrence Course:</td>
+      <td>
+        <select name="Course" id="Course">
+          <option value="COMP">COMP(Computer Engineering)</option>
+          <option value="CIVIL">CIVIL(Civil Engineering)</option>
+          <option value="MECH">MECH(Mechanical Engineering)</option>
+          <option value="CSE">CSE(Computer science Engineering-cybersecurity)</option>
+          <option value="EXTC">EXTC(Electronics and Telecommunication)</option>
+          <option value="ECS">ECS(Electronics and Computer science)</option>
+          <option value="IT">IT(Information Technology)</option>
+        </select>
+      </td>
+      </tr>
+    <br>
+    <br>
+    <tr>
+      <td colspan="2" align="center">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+      </td>
+      </tr>
+  </table>
+  
+</body>
+
+</html>

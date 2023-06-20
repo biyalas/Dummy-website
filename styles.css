@@ -1,0 +1,89 @@
+body{
+    
+    background: linear-gradient(0.25turn,rgb(49, 116, 179),rgb(238, 235, 64));
+}
+.header{
+    background-color:  rgb(253, 190, 80);
+    padding:10px;
+    text-align: center;
+}
+.navbar {
+overflow: hidden;
+background-color: #10557c;
+}
+.column{
+float: left;
+width: 33.3%;
+padding: 10px;
+}
+.row::after{
+    clear: both;
+    display: block;
+}
+.home{
+gap: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    gap: 20px;
+    border: 2px solid black;
+    width: 205vh;
+    height: 50vh;
+    text-align: center;
+}
+h3{
+    text-decoration:underline;
+}
+span{
+    border: 2px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 80px;
+    box-shadow: 10px 5px 5px;
+transition: 2sec ;
+}
+span:hover{
+    transform: translateY(+2px);
+}
+.line{
+    font-size: 20px;
+    font-weight: 900;
+    color: blue;
+    background-color:rgb(250, 173, 41);
+    height: 40px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(235, 245, 149);
+    
+}
+.mq{
+    background-color: rgb(160, 161, 165);
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+.foot{
+    text-align: center;
+}
+table,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: left;
+    background-color: rgb(245, 219, 149);
+}
+th{
+    background-color: rgb(148, 131, 33);
+}
+.top-container{
+    background-color: rgb(243, 146, 66);
+    
+}
